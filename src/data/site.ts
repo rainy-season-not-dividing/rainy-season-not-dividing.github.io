@@ -2,7 +2,7 @@ export const siteConfig = {
   name: '朱雄雄',
   title: '朱雄雄 | 计算机科学与技术 · Java 后端开发',
   description: '武汉理工大学计算机科学与技术专业，求职意向 Java 后端开发。熟悉高并发、分布式与常用中间件。',
-  url: 'https://yujibufenhanshu.github.io',
+  url: 'https://github.com/rainy-season-not-dividing/rainy-season-not-dividing.github.io',
   avatar: '/avatar.jpg',
   tagline: '武汉理工大学 · 计算机科学与技术 · 绩点 4.15/5.0，排名前 16%',
   tags: ['Java 后端', '高并发', '分布式', 'Spring Boot', 'Redis'],
