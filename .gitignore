@@ -9,3 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 .vite/
 
+# Privacy: do not commit resume PDFs
+public/cv.pdf
+profile*.pdf
+

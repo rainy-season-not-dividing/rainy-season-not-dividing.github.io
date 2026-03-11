@@ -15,7 +15,7 @@ export const siteConfig = {
     period: '2023.09 - 2027.07（预计）'
   },
   links: {
-    github: 'https://github.com/yujibufenhanshu',
+    github: 'https://github.com/rainy-season-not-dividing',
     email: '3452421615@qq.com',
     wechat: ''
   },

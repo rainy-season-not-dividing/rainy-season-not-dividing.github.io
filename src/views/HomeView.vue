@@ -30,13 +30,12 @@
           >
             查看科研经历
           </router-link>
-          <a
-            href="/cv.pdf"
-            target="_blank"
+          <router-link
+            to="/contact"
             class="rounded-lg border border-gray-300 px-6 py-2.5 text-gray-700 hover:bg-gray-50 dark:border-slate-600 dark:text-gray-200 dark:hover:bg-slate-700"
           >
-            下载简历
-          </a>
+            联系我
+          </router-link>
         </div>
       </div>
     </section>

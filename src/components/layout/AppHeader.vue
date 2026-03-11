@@ -6,12 +6,12 @@
       </router-link>
       <ul class="flex items-center gap-6 text-sm">
         <li><router-link to="/" class="nav-link">首页</router-link></li>
-        <li><router-link to="/about" class="nav-link">关于</router-link></li>
+        <li><router-link to="/about" class="nav-link">个人信息</router-link></li>
         <li><router-link to="/research" class="nav-link">科研经历</router-link></li>
         <li><router-link to="/projects" class="nav-link">竞赛/编程经历</router-link></li>
         <li><router-link to="/skills" class="nav-link">技能/开源</router-link></li>
-        <li><router-link to="/blog" class="nav-link">博客</router-link></li>
-        <li><router-link to="/cv" class="nav-link">简历</router-link></li>
+        <li><router-link to="/blog" class="nav-link">技术博客</router-link></li>
+        <li><router-link to="/cv" class="nav-link">获奖荣誉</router-link></li>
         <li><router-link to="/contact" class="nav-link">联系</router-link></li>
       </ul>
     </nav>

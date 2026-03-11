@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-3xl px-4 py-12">
-    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">关于我</h1>
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">个人信息</h1>
     <p class="mt-6 leading-relaxed text-gray-600 dark:text-gray-300">
       我是 {{ siteConfig.name }}，{{ siteConfig.education.school }} {{ siteConfig.education.major }} 专业在读，
       预计 {{ siteConfig.education.period }}。绩点 {{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}。
