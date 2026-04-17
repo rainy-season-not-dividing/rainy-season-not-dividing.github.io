@@ -14,14 +14,14 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     id: 'paper-1',
-    title: '基于 DSAMMF-Transformer 架构的涂层刀具磨损实时监测',
+    title: '基于 DSAMM-Transformer 架构的涂层刀具磨损实时监测',
     authors: ['朱雄雄', '等'],
     venue: 'ACM International Conference on Physical Science (ICPS)',
     year: 2025,
     type: '会议',
     level: 'EI 检索',
     abstract:
-      '提出 DSAMMF-Transformer 架构，对多源振动/电流/声学信号进行动态加权融合，并引入动态稀疏注意力，将复杂度由 O(n²) 降至 O(n log n)，在保持 MAE≈0.027 的同时将推理延迟由约 20ms 降至 9ms，具备边缘实时部署价值。',
+      '面向刀具磨损实时监测场景，设计 DSAMM-Transformer 多模态监测模型，融合振动、电流与声学信号，并引入动态稀疏注意力，将复杂度由 O(n²) 降至 O(n√n)。在公开工业数据集上实现 MAE≈0.027，并将推理时延由约 20ms 降至约 9ms，具备边缘实时部署价值。',
     links: {}
   },
   {
@@ -33,7 +33,7 @@ export const publications: Publication[] = [
     type: '专利',
     level: '发明专利（实质审查中）',
     abstract:
-      '面向大模型在传感器边端部署的资源受限与多模态精度矛盾，提出基于网络层异构融合的轻量化方法，并按层组特性与设备负载进行动态边端协同部署，在减参保特征的前提下提升资源利用率与部署适应性。',
+      '面向传感器边端部署中模型压缩易损失关键特征、跨设备协同复杂以及资源受限下精度与效率难以平衡的问题，设计基于网络层融合压缩的大模型部署方案，并结合 DFS 依赖分组、特性值分类与负载感知动态调度，实现更高效的边端协同部署。',
     links: {}
   },
   {
@@ -45,7 +45,7 @@ export const publications: Publication[] = [
     type: '专利',
     level: '发明专利（实质审查中）',
     abstract:
-      '针对集成传感器多模态融合中策略简单、权重固定、新模态扩展难等问题，提出大模型驱动的多模态边缘计算系统：大模型参与预处理与编码设计，按方差/信息熵/相关性确定核心模态与融合顺序，并结合小数据集微调与验证集表现自适应调整模态权重。',
+      '针对集成传感器多模态融合中策略简单、权重固定、新模态扩展难等问题，设计大模型优化的多模态边缘计算系统，通过模态特定编码、动态核心模态选择、相关性驱动融合与跨模态任务处理，提升系统适应性、扩展性与边缘场景下的计算效率。',
     links: {}
   }
 ]

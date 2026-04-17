@@ -1,7 +1,9 @@
 <template>
   <div class="mx-auto max-w-3xl px-4 py-12">
     <h1 class="text-3xl font-bold text-gray-900 dark:text-white">科研经历</h1>
-    <p class="mt-2 text-gray-600 dark:text-gray-400">科研项目、论文与专利相关经历（支持展开查看详情）。</p>
+    <p class="mt-2 text-gray-600 dark:text-gray-400">
+      围绕真实场景中的多模态感知、边缘部署与系统落地展开的科研经历，按问题、方法、个人贡献与结果进行展开。
+    </p>
 
     <ul class="mt-10 space-y-6">
       <li v-for="item in items" :key="item.id"

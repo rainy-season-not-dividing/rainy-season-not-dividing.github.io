@@ -1,11 +1,11 @@
 <template>
   <div class="mx-auto max-w-5xl px-4 py-12">
     <h1 class="text-3xl font-bold text-gray-900 dark:text-white">论文与专利</h1>
-    <p class="mt-2 text-gray-600 dark:text-gray-400">会议论文、发明专利等学术成果。</p>
+    <p class="mt-2 text-gray-600 dark:text-gray-400">围绕多模态感知、边缘部署与系统落地形成的论文与专利成果。</p>
 
     <div class="mt-8 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-slate-700 dark:bg-slate-800/50">
       <p class="text-sm text-gray-600 dark:text-gray-400">
-        会议论文一篇已见刊；发明专利两篇已受理。具体题目与期刊/会议名称可在简历或后续更新中查看。
+        当前形成 1 篇已见刊会议论文与 2 项发明专利（实质审查中）。这些工作并非彼此割裂，而是围绕“多模态感知 + 边缘部署 + 系统设计”的同一研究主线展开。
       </p>
     </div>
 
@@ -31,6 +31,9 @@
             {{ pub.authors.join(', ') }} · {{ pub.venue }} · {{ pub.year }}
           </p>
           <p v-if="pub.level" class="mt-1 text-xs text-gray-500 dark:text-gray-400">{{ pub.level }}</p>
+          <p v-if="pub.abstract" class="mt-3 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+            {{ pub.abstract }}
+          </p>
         </div>
         <a v-if="pub.links.pdf" :href="pub.links.pdf" target="_blank" rel="noopener" class="text-sm text-primary-600 hover:underline dark:text-primary-400">
           PDF

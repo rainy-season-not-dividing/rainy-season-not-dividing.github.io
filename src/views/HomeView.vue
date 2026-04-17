@@ -14,6 +14,10 @@
         <p class="mt-2 text-gray-500 dark:text-gray-400">
           {{ siteConfig.jobTarget }}
         </p>
+        <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+          围绕多模态感知、边缘部署与系统设计开展研究，形成 1 篇已见刊会议论文与 2 项发明专利，
+          同时具备系统实现、部署优化与工程落地能力。
+        </p>
         <div class="mt-6 flex flex-wrap justify-center gap-2">
           <span
             v-for="tag in siteConfig.tags"
@@ -85,8 +89,8 @@
         <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">最新动态</h2>
         <ul class="mt-8 space-y-4">
           <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2025.03</span>
-            <span>个人主页上线，集成项目经历与博客。</span>
+            <span class="text-sm text-gray-500 dark:text-gray-400">2026.04</span>
+            <span>个人主页按保研展示需求重构，统一为“AI系统 / 边缘智能 / 多模态应用”主线。</span>
           </li>
           <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
             <span class="text-sm text-gray-500 dark:text-gray-400">2025.02</span>
@@ -94,7 +98,7 @@
           </li>
           <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
             <span class="text-sm text-gray-500 dark:text-gray-400">2025.01</span>
-            <span>会议论文见刊，发明专利两篇已受理。</span>
+            <span>会议论文见刊，发明专利两项进入实质审查阶段。</span>
           </li>
         </ul>
       </div>

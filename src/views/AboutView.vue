@@ -6,10 +6,15 @@
       预计 {{ siteConfig.education.period }}。绩点 {{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}。
     </p>
     <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
-      求职意向为 <strong>Java 后端开发</strong>。在校期间独立或协作完成多个高并发、分布式相关项目，
-      熟悉 Spring Boot、MySQL、Redis、RabbitMQ 等常用技术栈，具备一定的系统设计与性能优化经验。
-      曾获国家励志奖学金、校三好学生、西门子杯国家二等奖、网络技术挑战赛国家二等奖等荣誉，
-      并有会议论文与发明专利经历。
+      当前更明确的研究主线是
+      <strong>AI系统 / 边缘智能 / 多模态应用 / 云边协同 / 工程落地</strong>。
+      我围绕真实工业与传感器场景，持续进行多模态感知、边缘部署与系统设计相关研究，形成了
+      <strong>1 篇已见刊会议论文</strong> 与 <strong>2 项发明专利（实质审查中）</strong>。
+    </p>
+    <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
+      与此同时，我也具备比较扎实的系统实现能力。独立或协作完成过高并发、缓存、消息系统、搜索与服务端联调相关项目，
+      熟悉 Spring Boot、MySQL、Redis、RabbitMQ、ElasticSearch 等技术栈。
+      这部分能力对我而言不是与科研割裂的“另一条线”，而是后续做 AI 系统、部署优化与工程落地的重要支撑。
     </p>
 
     <h2 class="mt-10 text-xl font-semibold text-gray-900 dark:text-white">教育背景</h2>
@@ -23,8 +28,8 @@
 
     <h2 class="mt-10 text-xl font-semibold text-gray-900 dark:text-white">个人特质</h2>
     <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
-      乐于在项目中承担从需求拆解、技术选型到实现与优化的完整链路，
-      具备团队协作与文档整理习惯。业余通过技术博客与开源参与持续学习。
+      我更适合做“模型 + 系统 + 部署 + 落地”结合型工作，既愿意从真实问题出发做研究，也愿意把方案真正实现成可运行的系统。
+      在导师视角下，我希望自己不是“只会调模型”或“只会写后端”的单一类型，而是能在科研与工程之间建立连接的复合型学生。
     </p>
   </div>
 </template>
