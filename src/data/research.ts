@@ -7,7 +7,7 @@ export interface ResearchItem {
   summary: string
   details: string
   links?: { paper?: string; pdf?: string; code?: string }
-  status: '进行中' | '已结题' | '已发表'
+  status: '实审中' | '已完成' | '已见刊'
 }
 
 export const researchItems: ResearchItem[] = [
@@ -17,7 +17,7 @@ export const researchItems: ResearchItem[] = [
     period: '2024 - 2025',
     role: '学生第一作者',
     tags: ['智能制造', '边缘计算', '时序建模', 'Transformer', '多模态融合'],
-    status: '已发表',
+    status: '已见刊',
     summary:
       '面向刀具磨损实时监测场景，设计 DSAMM-Transformer 多模态监测模型，融合振动、电流与声学信号，并引入动态稀疏注意力，在保持 MAE≈0.027 的同时将推理时延由约 20ms 降至约 9ms。',
     details: `
@@ -61,7 +61,7 @@ export const researchItems: ResearchItem[] = [
     period: '2024 - 至今',
     role: '学生第一作者（专利）',
     tags: ['大模型部署', '网络层融合压缩', '边端协同', '动态调度'],
-    status: '进行中',
+    status: '实审中',
     summary:
       '面向传感器边端部署中模型压缩易损失关键特征、跨设备协同复杂以及资源受限下精度与效率难以平衡的问题，设计基于网络层融合压缩的大模型部署方案，并结合 DFS 依赖分组、特性值分类与负载感知调度实现边端协同部署。',
     details: `
@@ -95,7 +95,7 @@ export const researchItems: ResearchItem[] = [
     period: '2024 - 至今',
     role: '学生第一作者（专利）',
     tags: ['多模态融合', '动态权重', '边缘计算', '大模型驱动'],
-    status: '进行中',
+    status: '实审中',
     summary:
       '针对集成传感器多模态融合中策略简单、权重固定、新模态扩展难等问题，设计大模型优化的多模态边缘计算系统，通过模态特定编码、动态核心模态选择、相关性驱动融合和跨模态任务处理提升系统适应性与扩展性。',
     details: `
@@ -130,7 +130,7 @@ export function getResearchById(id: string) {
 }
 
 export function getResearchSorted() {
-  const score = (s: ResearchItem['status']) => (s === '已发表' ? 2 : s === '进行中' ? 1 : 0)
+  const score = (s: ResearchItem['status']) => (s === '已见刊' ? 2 : s === '实审中' ? 1 : 0)
   return [...researchItems].sort((a, b) => {
     const d = score(b.status) - score(a.status)
     if (d !== 0) return d

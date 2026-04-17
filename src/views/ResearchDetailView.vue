@@ -9,9 +9,9 @@
         <span
           class="rounded px-2.5 py-1 text-xs font-medium"
           :class="
-            item.status === '已发表'
+            item.status === '已见刊'
               ? 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300'
-              : item.status === '进行中'
+              : item.status === '实审中'
                 ? 'bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300'
                 : 'bg-gray-100 text-gray-600 dark:bg-slate-600 dark:text-gray-300'
           "

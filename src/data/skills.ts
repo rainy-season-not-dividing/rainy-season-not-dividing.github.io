@@ -14,27 +14,27 @@ export interface CodeHighlight {
 export const skillGroups: SkillGroup[] = [
   {
     name: '研究相关技术能力',
-    summary: '和当前科研主线直接相关，优先向导师展示“会做什么问题、会用什么工具、能把实验推进到什么程度”。',
+    summary: '主要围绕 Python、PyTorch 和实验分析，服务于多模态建模、边缘优化和相关研究实践。',
     items: ['Python', 'NumPy / Pandas', 'scikit-learn', 'PyTorch', '实验记录与结果分析']
   },
   {
     name: '模型构建与训练流程',
-    summary: '覆盖从任务识别、基线选择到训练、验证、调参与误差分析的完整流程，而不是只会调用现成模型。',
+    summary: '覆盖从任务识别、基线选择到训练、验证、调参与误差分析的完整流程。',
     items: ['任务建模与基线设计', '损失函数 / 优化器 / 学习率调度', 'Early Stopping', '验证集评估', '错误分析与实验对比']
   },
   {
     name: '多模态与时序建模',
-    summary: '围绕多传感器、多模态和序列问题持续训练，和当前论文、专利方向保持一致。',
+    summary: '围绕多传感器、多模态和序列问题开展建模与实验，与当前论文和专利方向保持一致。',
     items: ['多模态样本构建', '图像-文本交互融合', 'BiLSTM / Transformer 实践', '动态权重与特征融合', '时序信号建模']
   },
   {
     name: '边缘部署与模型优化',
-    summary: '重点不是只会训练模型，而是会考虑资源约束、精度-时延权衡和部署可行性。',
+    summary: '关注资源约束下的精度、时延权衡以及部署可行性。',
     items: ['动态量化', '知识蒸馏', '注意力头剪枝', '轻量骨干网络比较', '边缘指标评估与候选模型选择']
   },
   {
     name: '工程实现支撑',
-    summary: '这部分能力继续保留，但放在研究主线之后，用来支撑系统实现、推理服务和工程落地。',
+    summary: '用于支撑系统实现、推理服务和工程落地。',
     items: ['Java', 'Spring Boot', 'MySQL', 'Redis', 'RabbitMQ / Kafka', 'ElasticSearch', 'Docker', 'Linux']
   }
 ]
