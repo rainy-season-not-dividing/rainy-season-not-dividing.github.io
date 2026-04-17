@@ -1,18 +1,87 @@
-export const skillGroups = [
+export interface SkillGroup {
+  name: string
+  summary: string
+  items: string[]
+}
+
+export interface CodeHighlight {
+  title: string
+  summary: string
+  items: string[]
+  note: string
+}
+
+export const skillGroups: SkillGroup[] = [
   {
-    name: '语言与框架',
-    items: ['Java', 'Spring / Spring Boot', 'Spring AOP', 'MyBatis / MyBatis-Plus']
+    name: '研究相关技术能力',
+    summary: '和当前科研主线直接相关，优先向导师展示“会做什么问题、会用什么工具、能把实验推进到什么程度”。',
+    items: ['Python', 'NumPy / Pandas', 'scikit-learn', 'PyTorch', '实验记录与结果分析']
   },
   {
-    name: '并发与 JVM',
-    items: ['Java 并发编程', '锁机制、线程池与并发队列', 'JVM 内存、类加载、GC 与常见收集器']
+    name: '模型构建与训练流程',
+    summary: '覆盖从任务识别、基线选择到训练、验证、调参与误差分析的完整流程，而不是只会调用现成模型。',
+    items: ['任务建模与基线设计', '损失函数 / 优化器 / 学习率调度', 'Early Stopping', '验证集评估', '错误分析与实验对比']
   },
   {
-    name: '数据库与缓存',
-    items: ['MySQL（锁、InnoDB、索引、MVCC、SQL 优化）', 'Redis（数据结构、分布式锁、高可用方案）']
+    name: '多模态与时序建模',
+    summary: '围绕多传感器、多模态和序列问题持续训练，和当前论文、专利方向保持一致。',
+    items: ['多模态样本构建', '图像-文本交互融合', 'BiLSTM / Transformer 实践', '动态权重与特征融合', '时序信号建模']
   },
   {
-    name: '中间件与运维',
-    items: ['RabbitMQ / Kafka', 'ElasticSearch', 'Linux 常用指令', 'Docker']
+    name: '边缘部署与模型优化',
+    summary: '重点不是只会训练模型，而是会考虑资源约束、精度-时延权衡和部署可行性。',
+    items: ['动态量化', '知识蒸馏', '注意力头剪枝', '轻量骨干网络比较', '边缘指标评估与候选模型选择']
+  },
+  {
+    name: '工程实现支撑',
+    summary: '这部分能力继续保留，但放在研究主线之后，用来支撑系统实现、推理服务和工程落地。',
+    items: ['Java', 'Spring Boot', 'MySQL', 'Redis', 'RabbitMQ / Kafka', 'ElasticSearch', 'Docker', 'Linux']
+  }
+]
+
+export const codeHighlights: CodeHighlight[] = [
+  {
+    title: '边缘模型优化实验线',
+    summary: '围绕边缘设备约束，持续比较量化、蒸馏、剪枝和候选模型选择对精度、时延和资源占用的影响。',
+    items: [
+      '动态量化效果对比与误差拆分',
+      '蒸馏训练与监督训练对照实验',
+      '注意力头剪枝后的性能恢复',
+      '输入长度 / Batch Size / 候选模型的边缘权衡分析'
+    ],
+    note: '对应本地目录：edge_model_step_by_step'
+  },
+  {
+    title: '多模态建模实验线',
+    summary: '从基础配对样本构建出发，逐步扩展到预训练图像编码器、交互融合、文本编码与误差分析。',
+    items: [
+      '多模态配对样本构建与基线实现',
+      '预训练图像编码器接入',
+      '交互式融合结构对比',
+      'BiLSTM 文本编码、Prompt 模板与 Hard Negative 实验'
+    ],
+    note: '对应本地目录：multimodal_step_by_step'
+  },
+  {
+    title: '轻量骨干网络比较',
+    summary: '围绕 MobileOne 等轻量骨干网络进行结构选择和边缘性能比较，强调“模型选型”而不是只看单点精度。',
+    items: [
+      'Cross-backbone Benchmark',
+      'Minimal Variant Benchmark',
+      '精度 / 时延权衡可视化',
+      '为后续端侧部署和模型选型提供依据'
+    ],
+    note: '对应本地目录：round2_edge_mobileone'
+  },
+  {
+    title: '实验记录与复盘体系',
+    summary: '为表格、视觉、文本、多模态和边缘任务建立结构化实验记录，方便复盘、面试表达和后续研究延展。',
+    items: [
+      '统一记录任务、数据划分、模型结构与超参数',
+      '沉淀实验观察与下一步动作',
+      '便于横向比较不同模型与策略',
+      '便于后续整理为简历、网站和面试材料'
+    ],
+    note: '对应本地目录：experiment_records'
   }
 ]

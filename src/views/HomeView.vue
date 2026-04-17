@@ -69,8 +69,8 @@
             class="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:border-primary-200 hover:shadow dark:border-slate-700 dark:bg-slate-800 dark:hover:border-primary-800"
           >
             <span class="text-2xl">🔧</span>
-            <h3 class="mt-2 font-medium text-gray-900 group-hover:text-primary-600 dark:text-white dark:group-hover:text-primary-400">技能与开源</h3>
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">技术栈与 GitHub</p>
+            <h3 class="mt-2 font-medium text-gray-900 group-hover:text-primary-600 dark:text-white dark:group-hover:text-primary-400">技术积累</h3>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">研究技术栈与代码积累</p>
           </router-link>
           <router-link
             to="/blog"
