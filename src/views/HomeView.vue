@@ -90,7 +90,7 @@
         <ul class="mt-8 space-y-4">
           <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
             <span class="text-sm text-gray-500 dark:text-gray-400">2026.04</span>
-            <span>个人主页按保研展示需求重构，统一为“AI系统 / 边缘智能 / 多模态应用”主线。</span>
+            <span>持续完善机器学习与深度学习实验记录，围绕多模态建模、边缘优化与轻量网络比较开展系统化实践。</span>
           </li>
           <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
             <span class="text-sm text-gray-500 dark:text-gray-400">2025.02</span>
