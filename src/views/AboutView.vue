@@ -6,9 +6,10 @@
       预计 {{ siteConfig.education.period }}。绩点 {{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}。
     </p>
     <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
-      当前更明确的研究主线是
-      <strong>AI系统 / 边缘智能 / 多模态应用 / 云边协同 / 工程落地</strong>。
-      我围绕真实工业与传感器场景，持续进行多模态感知、边缘部署与系统设计相关研究，形成了
+      我目前的研究主要围绕
+      <strong>AI系统 / 边缘智能 / 多模态应用 / 云边协同 / 工程落地</strong>展开研究，
+      并且持续进行多模态建模、深度学习实验与部署优化的学习，具备基于 Python、PyTorch 等工具
+      进行模型设计、训练与分析的实践经验。我围绕真实工业与传感器场景，持续进行多模态感知、边缘部署与系统设计相关研究，形成了
       <strong>1 篇已见刊会议论文</strong> 与 <strong>2 项发明专利（实质审查中）</strong>。
     </p>
     <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
