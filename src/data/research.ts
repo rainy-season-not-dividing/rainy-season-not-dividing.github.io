@@ -14,7 +14,7 @@ export const researchItems: ResearchItem[] = [
   {
     id: 'dsammf-transformer',
     title: '基于 DSAMM-Transformer 架构的涂层刀具磨损实时监测',
-    period: '2024 - 2025',
+    period: '2025.03 - 2025.05',
     role: '学生第一作者',
     tags: ['智能制造', '边缘计算', '时序建模', 'Transformer', '多模态融合'],
     status: '已见刊',
@@ -58,7 +58,7 @@ export const researchItems: ResearchItem[] = [
   {
     id: 'llm-edge-compression',
     title: '基于大模型网络层融合压缩的传感器边端系统部署系统和方法',
-    period: '2024 - 至今',
+    period: '2024.09 - 至今',
     role: '学生第一作者（专利）',
     tags: ['大模型部署', '网络层融合压缩', '边端协同', '动态调度'],
     status: '实审中',
@@ -92,7 +92,7 @@ export const researchItems: ResearchItem[] = [
   {
     id: 'llm-multimodal-fusion',
     title: '大模型优化的集成传感器多模态数据边缘计算系统及方法',
-    period: '2024 - 至今',
+    period: '2024.09 - 至今',
     role: '学生第一作者（专利）',
     tags: ['多模态融合', '动态权重', '边缘计算', '大模型驱动'],
     status: '实审中',
