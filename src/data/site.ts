@@ -13,7 +13,7 @@ export const siteConfig = {
     degree: '本科',
     gpa: '4.154/5.0（91.54/100）',
     rank: '24/157（前 16%）',
-    period: '2023.09 - 2027.07（预计）'
+    period: '2023.09 - 2027.06'
   },
   links: {
     github: 'https://github.com/rainy-season-not-dividing',

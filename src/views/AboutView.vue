@@ -3,7 +3,7 @@
     <h1 class="text-3xl font-bold text-gray-900 dark:text-white">个人信息</h1>
     <p class="mt-6 leading-relaxed text-gray-600 dark:text-gray-300">
       我是 {{ siteConfig.name }}，{{ siteConfig.education.school }} {{ siteConfig.education.major }} 专业在读，
-      预计 {{ siteConfig.education.period }}。绩点 {{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}。
+      在读时间 {{ siteConfig.education.period }}。绩点 {{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}。
     </p>
     <p class="mt-4 leading-relaxed text-gray-600 dark:text-gray-300">
       我目前的研究主要围绕
@@ -24,7 +24,7 @@
       <li><strong>专业：</strong>{{ siteConfig.education.major }}</li>
       <li><strong>学历：</strong>{{ siteConfig.education.degree }}</li>
       <li><strong>绩点：</strong>{{ siteConfig.education.gpa }}，排名 {{ siteConfig.education.rank }}</li>
-      <li><strong>毕业时间：</strong>{{ siteConfig.education.period }}</li>
+      <li><strong>在读时间：</strong>{{ siteConfig.education.period }}</li>
     </ul>
 
     <h2 class="mt-10 text-xl font-semibold text-gray-900 dark:text-white">个人特质</h2>
