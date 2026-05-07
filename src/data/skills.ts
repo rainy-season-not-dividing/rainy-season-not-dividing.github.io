@@ -13,7 +13,7 @@ export interface CodeHighlight {
 
 export const skillGroups: SkillGroup[] = [
   {
-    name: '研究相关技术能力',
+    name: '编程语言与工具基础',
     summary: '主要围绕 Python、PyTorch 和实验分析，服务于多模态建模、边缘优化和相关研究实践。',
     items: ['Python', 'NumPy / Pandas', 'scikit-learn', 'PyTorch', '实验记录与结果分析']
   },
@@ -24,7 +24,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     name: '多模态与时序建模',
-    summary: '围绕多传感器、多模态和序列问题开展建模与实验，与当前论文和专利方向保持一致。',
+    summary: '围绕多传感器、多模态和序列问题开展建模与实验。',
     items: ['多模态样本构建', '图像-文本交互融合', 'BiLSTM / Transformer 实践', '动态权重与特征融合', '时序信号建模']
   },
   {
