@@ -95,6 +95,14 @@
             <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
             <span>会议论文见刊，发明专利两项进入实质审查阶段。</span>
           </li>
+          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+            <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
+            <span>基于 STM32 完成智能小车的设计与调试，实现基本的运动控制与传感器数据采集。</span>
+          </li>
+          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+            <span class="text-sm text-gray-500 dark:text-gray-400">2025.03</span>
+            <span>开始学习 STM32 单片机开发，熟悉嵌入式系统的基本开发流程。</span>
+          </li>
         </ul>
       </div>
     </section>

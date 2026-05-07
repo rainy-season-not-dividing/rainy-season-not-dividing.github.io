@@ -59,7 +59,7 @@
     <section class="mt-10 rounded-xl border border-primary-100 bg-primary-50/60 p-6 dark:border-primary-900/40 dark:bg-primary-900/10">
       <h2 class="text-lg font-semibold text-gray-900 dark:text-white">概况</h2>
       <p class="mt-3 text-sm leading-6 text-gray-700 dark:text-gray-300">
-        当前的工作方向集中在多模态建模、边缘模型优化、轻量网络选型和实验记录管理。此外在 Java 后端开发和系统实现方面也有较完整的实践经验。
+        当前的工作方向集中在多模态建模、边缘模型优化、轻量网络选型和实验记录管理。此外，我在 Java 后端开发和系统实现方面也有较完整的实践经验。
       </p>
       <p class="mt-3 text-sm leading-6 text-gray-700 dark:text-gray-300">
         公开仓库会优先整理结构更完整、表达更统一、与当前研究方向更相关的部分记录。
