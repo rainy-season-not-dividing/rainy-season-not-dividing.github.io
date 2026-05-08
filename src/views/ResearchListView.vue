@@ -10,7 +10,7 @@
         class="rounded-xl border border-gray-200 bg-white p-5 transition hover:border-primary-200 hover:shadow dark:border-slate-700 dark:bg-slate-800 dark:hover:border-primary-800">
         <router-link :to="`/research/${item.id}`" class="block">
           <div class="flex flex-wrap items-center gap-2">
-            <span class="rounded px-2.5 py-1 text-xs font-medium" :class="item.status === '已见刊'
+            <span class="rounded px-2.5 py-1 text-xs font-medium" :class="item.status === 'EI检索'
                 ? 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300'
                 : item.status === '实审中'
                   ? 'bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300'

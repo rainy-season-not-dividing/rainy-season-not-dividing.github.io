@@ -7,7 +7,7 @@ export interface ResearchItem {
   summary: string
   details: string
   links?: { paper?: string; pdf?: string; code?: string }
-  status: '实审中' | '已完成' | '已见刊'
+  status: '实审中' | '已完成' | 'EI检索'
 }
 
 export const researchItems: ResearchItem[] = [
@@ -17,7 +17,7 @@ export const researchItems: ResearchItem[] = [
     period: '2025.03 - 2025.05',
     role: '学生第一作者',
     tags: ['智能制造', '边缘计算', '时序建模', 'Transformer', '多模态融合'],
-    status: '已见刊',
+    status: 'EI检索',
     summary:
       '面向刀具磨损实时监测场景，设计 DSAMM-Transformer 多模态监测模型，融合振动、电流与声学信号，并引入动态稀疏注意力，在保持 MAE≈0.027 的同时将推理时延由约 20ms 降至约 9ms。',
     details: `
@@ -130,7 +130,7 @@ export function getResearchById(id: string) {
 }
 
 export function getResearchSorted() {
-  const score = (s: ResearchItem['status']) => (s === '已见刊' ? 2 : s === '实审中' ? 1 : 0)
+  const score = (s: ResearchItem['status']) => (s === 'EI检索' ? 2 : s === '实审中' ? 1 : 0)
   return [...researchItems].sort((a, b) => {
     const d = score(b.status) - score(a.status)
     if (d !== 0) return d

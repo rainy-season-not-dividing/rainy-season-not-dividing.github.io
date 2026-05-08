@@ -17,7 +17,7 @@
           {{ siteConfig.jobTarget }}
         </p>
         <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-          围绕多模态感知、边缘部署与系统设计开展研究，形成 1 篇已见刊会议论文与 2 项发明专利，
+          围绕多模态感知、边缘部署与系统设计开展研究，形成 1 篇已见刊 EI 检索会议论文（学生第一作者）与 2 项发明专利（学生第一作者），
           同时具备系统实现、部署优化与工程落地能力。
         </p>
         <div class="mt-6 flex flex-wrap justify-center gap-2">
