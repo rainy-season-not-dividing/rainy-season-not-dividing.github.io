@@ -12,7 +12,7 @@ export const siteConfig = {
     major: '计算机科学与技术',
     degree: '本科',
     gpa: '4.154/5.0（91.54/100）',
-    rank: '24/157（前 16%）',
+    rank: '31/233（13.30 %）',
     period: '2023.09 - 2027.06'
   },
   links: {
