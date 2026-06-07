@@ -5,14 +5,14 @@ export const siteConfig = {
     '武汉理工大学计算机科学与技术专业本科生，聚焦 AI系统、边缘智能、多模态应用与工程落地，具备真实科研闭环与系统实现能力。',
   url: 'https://github.com/rainy-season-not-dividing/rainy-season-not-dividing.github.io',
   avatar: '/avatar.jpg',
-  tagline: '武汉理工大学 · 计算机科学与技术 · 绩点 4.15/5.0，排名前 16%',
+  tagline: '武汉理工大学 · 计算机科学与技术 · 绩点 4.15/5.0，排名前 13.30%',
   tags: ['AI系统', '边缘智能', '多模态应用', '云边协同', '工程落地'],
   education: {
     school: '武汉理工大学',
     major: '计算机科学与技术',
     degree: '本科',
     gpa: '4.154/5.0（91.54/100）',
-    rank: '31/233（13.30 %）',
+    rank: '31/233（13.30%）',
     period: '2023.09 - 2027.06'
   },
   links: {
