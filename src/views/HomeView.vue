@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div>
     <section
       class="relative overflow-hidden bg-gradient-to-b from-primary-50 to-white py-20 dark:from-slate-800 dark:to-slate-900">
@@ -18,7 +18,7 @@
         </p>
         <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-300">
           围绕多模态感知、边缘部署与系统设计开展研究，形成 1 篇已见刊 EI 检索会议论文（学生第一作者）与 2 项发明专利（学生第一作者），
-          同时具备系统实现、部署优化与工程落地能力。
+          同时具备模型训练与实验分析、高效推理优化、系统实现与工程落地能力。
         </p>
         <div class="mt-6 flex flex-wrap justify-center gap-2">
           <span v-for="tag in siteConfig.tags" :key="tag"
@@ -56,8 +56,8 @@
             <span class="text-2xl">📄</span>
             <h3
               class="mt-2 font-medium text-gray-900 group-hover:text-primary-600 dark:text-white dark:group-hover:text-primary-400">
-              竞赛/编程经历</h3>
-            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">工程项目与竞赛奖项</p>
+              项目/实习经历</h3>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">实习项目与工程实践</p>
           </router-link>
           <router-link to="/skills"
             class="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:border-primary-200 hover:shadow dark:border-slate-700 dark:bg-slate-800 dark:hover:border-primary-800">
@@ -81,29 +81,92 @@
 
     <section class="border-t border-gray-200 py-16 dark:border-slate-700">
       <div class="mx-auto max-w-5xl px-4">
-        <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">最新动态</h2>
-        <ul class="mt-8 space-y-4">
-          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2026.04</span>
-            <span>持续完善机器学习与深度学习实验记录，围绕多模态建模、边缘优化与轻量网络比较开展系统化实践。</span>
-          </li>
-          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2025.10</span>
-            <span>校遇项目完成，支撑 3000+ 并发 0 错误。</span>
-          </li>
-          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
-            <span>会议论文见刊，发明专利两项进入实质审查阶段。</span>
-          </li>
-          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
-            <span>基于 STM32 完成智能小车的设计与调试，实现基本的运动控制与传感器数据采集。</span>
-          </li>
-          <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">2025.03</span>
-            <span>开始学习 STM32 单片机开发，熟悉嵌入式系统的基本开发流程。</span>
-          </li>
-        </ul>
+        <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">成长历程</h2>
+        <div class="mt-8 space-y-8">
+          <section>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">大一：基础建立与学习节奏形成</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2023.09</span>
+                <span>入学，进入计算机科学与技术专业</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2024.04</span>
+                <span>获得国家励志奖学金/校三好学生等阶段性认可</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2024.06</span>
+                <span>完成基础课程积累</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2024.07</span>
+                <span>开始接触计算机视觉与 AI 应用实践</span>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">大二：工程实践与科研方向萌芽</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2024.09</span>
+                <span>开始接触机器学习与模型训练流程</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2024.10</span>
+                <span>开始系统学习 PyTorch 与神经网络基础</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2025.03</span>
+                <span>开始 STM32 与嵌入式实践</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
+                <span>完成智能小车设计与调试</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2025.05</span>
+                <span>论文见刊，两项专利进入实质审查</span>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">大三：AI 方向收束与系统能力增强</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2025.07</span>
+                <span>完成高并发后端项目，并开始关注智能体 Agent 相关应用</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2025.10</span>
+                <span>校遇项目完成，支撑 3000+ 并发 0 错误，并积累 Linux 云服务器部署与项目上线经验</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2026.04</span>
+                <span>持续完善深度学习、多模态建模与边缘优化实验记录</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2026.06</span>
+                <span>参与多智能体应用系统实习项目</span>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">大四：面向升学与长期方向继续沉淀</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2026.09</span>
+                <span>拟聚焦保研申请、导师匹配与方向收束</span>
+              </li>
+              <li class="flex gap-4 border-l-2 border-primary-500 pl-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">2027.06</span>
+                <span>拟完成本科阶段学习，希望在后续研究生阶段结合导师课题方向继续深入学习与科研训练</span>
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </section>
   </div>
@@ -112,3 +175,6 @@
 <script setup lang="ts">
 import { siteConfig } from '@/data/site'
 </script>
+
+
+

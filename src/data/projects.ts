@@ -1,4 +1,4 @@
-export interface ProjectLink {
+﻿export interface ProjectLink {
   paper?: string
   code?: string
   demo?: string
@@ -21,6 +21,23 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    id: 'multi-agent-internship',
+    title: '多智能体应用系统实习项目',
+    period: '2026.05 - 至今',
+    institution: '实习项目',
+    description: '参与多智能体相关应用系统实践，围绕任务规划、知识检索、记忆机制与上下文管理等问题开展需求理解、流程梳理和功能实现，重点关注智能体能力如何与真实业务流程、系统接口和工程部署结合。',
+    contributions: [
+      '参与多智能体系统相关模块的需求分析与流程梳理，理解任务拆解、工具调用、上下文传递和多轮协作中的关键约束',
+      '接触并参与知识检索、记忆机制与上下文管理相关工作，关注信息组织、历史状态维护和结果可追溯性',
+      '结合后端接口、数据流转和服务部署需求，理解大模型/智能体应用从原型到系统落地过程中的工程问题',
+      '在项目实践中形成对智能体系统、模型应用和工程集成更直接的理解'
+    ],
+    techStack: ['多智能体系统', '大模型应用', '任务规划', '知识检索', '记忆机制', '上下文管理', '系统集成'],
+    links: {},
+    status: '进行中',
+    featured: true
+  },
   {
     id: 'xiao-yu',
     title: '校遇 - 校园场景社交服务平台',
@@ -68,3 +85,5 @@ export const projects: Project[] = [
     featured: true
   }
 ]
+
+

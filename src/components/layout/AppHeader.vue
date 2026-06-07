@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur dark:border-slate-700 dark:bg-slate-900/80">
     <nav class="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
       <router-link to="/" class="text-lg font-semibold text-primary-600 dark:text-primary-400">
@@ -8,7 +8,7 @@
         <li><router-link to="/" class="nav-link">首页</router-link></li>
         <li><router-link to="/about" class="nav-link">个人信息</router-link></li>
         <li><router-link to="/research" class="nav-link">科研经历</router-link></li>
-        <li><router-link to="/projects" class="nav-link">竞赛/编程经历</router-link></li>
+        <li><router-link to="/projects" class="nav-link">项目/实习经历</router-link></li>
         <li><router-link to="/skills" class="nav-link">技术与代码</router-link></li>
         <li><router-link to="/blog" class="nav-link">技术博客</router-link></li>
         <li><router-link to="/cv" class="nav-link">获奖荣誉</router-link></li>
@@ -30,3 +30,4 @@ import { siteConfig } from '@/data/site'
   @apply font-medium text-primary-600 dark:text-primary-400;
 }
 </style>
+

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+﻿import { createRouter, createWebHistory } from 'vue-router'
 
 // 存储页面滚动位置
 const scrollPositions: Record<string, number> = {}
@@ -10,7 +10,7 @@ const router = createRouter({
     { path: '/about', name: 'About', component: () => import('@/views/AboutView.vue'), meta: { title: '关于' } },
     { path: '/research', name: 'Research', component: () => import('@/views/ResearchListView.vue'), meta: { title: '科研经历' } },
     { path: '/research/:id', name: 'ResearchDetail', component: () => import('@/views/ResearchDetailView.vue'), meta: { title: '科研经历' } },
-    { path: '/projects', name: 'Projects', component: () => import('@/views/ResearchView.vue'), meta: { title: '竞赛/编程经历' } },
+    { path: '/projects', name: 'Projects', component: () => import('@/views/ResearchView.vue'), meta: { title: '项目/实习经历' } },
     { path: '/skills', name: 'Skills', component: () => import('@/views/ProjectsView.vue'), meta: { title: '技术与代码' } },
     { path: '/blog', name: 'Blog', component: () => import('@/views/BlogListView.vue'), meta: { title: '博客' } },
     { path: '/blog/:slug', name: 'BlogPost', component: () => import('@/views/BlogPostView.vue'), meta: { title: '文章' } },
@@ -55,3 +55,4 @@ router.afterEach((to) => {
 })
 
 export default router
+

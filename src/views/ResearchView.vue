@@ -1,7 +1,7 @@
-<template>
+﻿<template>
   <div class="mx-auto max-w-5xl px-4 py-12">
-    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">竞赛/编程经历</h1>
-    <p class="mt-2 text-gray-600 dark:text-gray-400">工程项目、系统优化与编程相关经历。</p>
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">项目/实习经历</h1>
+    <p class="mt-2 text-gray-600 dark:text-gray-400">实习项目、工程项目、系统优化与编程相关经历。</p>
 
     <div class="mt-10 space-y-8">
       <article
@@ -49,3 +49,4 @@
 <script setup lang="ts">
 import { projects } from '@/data/projects'
 </script>
+
