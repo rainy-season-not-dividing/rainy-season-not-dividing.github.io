@@ -39,6 +39,25 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    id: 'dsamm-transformer-tool-wear',
+    title: 'DSAMM-Transformer 刀具磨损多模态监测项目',
+    period: '2025.03 - 2026.06',
+    institution: '会议论文 / 科研项目',
+    description: '面向涂层刀具磨损实时监测场景，构建多源传感器时序数据处理、模型训练、推理评估与结果分析流程。项目以振动、电流、声学/工艺信号为输入，设计基于动态多模态融合与动态稀疏注意力的 DSAMM-Transformer 模型，用于预测刀具磨损状态，并评估其在实时监测与边缘部署场景下的效率表现。',
+    contributions: [
+      '构建原始加工过程数据处理流程，按实验组切分长时序传感器数据，生成长度为 256 的滑动窗口样本，并完成振动、电流、声学/工艺特征的组织与标准化',
+      '实现多模态时序数据集与训练管线，支持振动、电流、声学/工艺三路输入拼接、标签归一化、训练/验证集划分、NaN 处理与批量加载',
+      '设计 DSAMM-Transformer 主体结构，包含动态多模态融合模块、top-k 动态稀疏注意力、残差连接、LayerNorm、FFN 与回归预测头',
+      '实现基于磨损阶段的动态融合策略，使模型能够根据样本阶段选择不同融合权重，增强不同磨损阶段下的多传感器表征能力',
+      '完成模型训练与评估，使用 HuberLoss、AdamW、学习率调度、梯度裁剪和 TensorBoard 日志记录，跟踪 MSE、MAE、R2、推理延迟与内存占用等指标',
+      '实验中模型 MAE 达到约 0.027-0.028，推理延迟降至约 9ms，为实时监测和边缘侧部署提供了效率评估依据'
+    ],
+    techStack: ['PyTorch', 'Transformer', '多模态时序建模', '动态多模态融合', '动态稀疏注意力', 'HuberLoss', 'AdamW', 'TensorBoard', '推理效率评估'],
+    links: {},
+    status: '已发表',
+    featured: true
+  },
+  {
     id: 'xiao-yu',
     title: '校遇 - 校园场景社交服务平台',
     period: '2025.09 - 2025.10',
@@ -70,6 +89,7 @@ export const projects: Project[] = [
     status: '已结题',
     featured: true
   },
+  /*
   {
     id: 'waimai',
     title: '外卖后台管理系统',
@@ -84,6 +104,7 @@ export const projects: Project[] = [
     status: '已结题',
     featured: true
   }
+  */
 ]
 
 
